@@ -120,5 +120,9 @@ body {
 
 }
 .listr {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    color: #2e2f42;
+}
+.for-your-business {
+    background-color: #2e2f42;
 }
