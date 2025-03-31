@@ -51,6 +51,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    color: #da1717;
 }
 
 .page-nav .link:active {
@@ -60,5 +61,5 @@ font-weight: 500;
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: #da1717;
 }
