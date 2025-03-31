@@ -23,6 +23,7 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
+        text-align: center;
 }
 .h3str{ 
     font-weight: 500;
