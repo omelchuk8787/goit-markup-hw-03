@@ -51,10 +51,18 @@ p {
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
-.page-nav .link:hover {
+.page-nav .link:hover, .page-nav .link:active, .page-nav .link:focus{
     color: #bc0a30;
 }
-
-.page-nav .link:active {
-        color: #0be91a;
+.button {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    color: #bc0a30;
 }
