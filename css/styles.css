@@ -49,6 +49,6 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.contact-info .contact-info:hover, .contact-info .contact-info:focus, .contact-info:active {
+.contact-info:hover, .contact-info .contact-info:focus, .contact-info:active {
     color: #404bbf;
 }
