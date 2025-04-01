@@ -14,7 +14,7 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.logo:active, .logo:focus, .logo:hover {
+.logo .logo:active, .logo:focus, .logo:hover {
     color: #404bbf;
 }
 .lostud {
@@ -25,7 +25,7 @@ body {
         letter-spacing: 0.03em;
         color: #2e2f42;
 }
-.lostud:hover, .lostud:focus, .lostud:active {
+.lostud .lostud:hover, .lostud:focus, .lostud:active {
     color: #404bbf;
 }
 .link {
@@ -36,7 +36,7 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.link link:hover, .link link:focus, .link:active {
+.link .link:hover, .link link:focus, .link:active {
     color: #404bbf;
 }
 .address {
@@ -49,6 +49,6 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.contact-info:hover, .contact-info .contact-info:focus, .contact-info:active {
+.contact-info .contact-info:hover, .contact-info .contact-info:focus, .contact-info:active {
     color: #404bbf;
 }
