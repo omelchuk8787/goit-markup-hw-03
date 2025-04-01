@@ -53,7 +53,7 @@ address {
 .for-your-business {
     background-color: #2e2f42;
 }
-.h1-for-business {
+.h1-business {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -76,4 +76,21 @@ address {
 .button:hover, .button:active, .button:focus {
     background-color: #404BBF;
     cursor: pointer;
+}
+.h3str {
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.strategy {
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
