@@ -14,6 +14,9 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
 }
+.logo:active, .logo:focus, .logo:hover {
+    color: #404bbf;
+}
 .lostud {
     font-weight: 500;
         font-size: 18px;
