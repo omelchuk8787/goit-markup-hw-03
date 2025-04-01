@@ -16,29 +16,35 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo .logo:hover, .logo:active, .logo:focus {
+.logo:hover, .logo:active, .logo:focus {
     color: #4d5ae5;
 }
 .lostud {
     color: #2e2f42;
 }
+.lostud:hover, .lostud:active, .lostud:focus {
+    color: #4d5ae5;
+}
 .nav .link {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 24px;
     color: #2e2f42;
 }
-.nav .link:hover, .nav .link:active, .nav .link:focus {
+ .nav .link:hover, .link:active, .nav .link:focus {
     color: #404bbf;
 }
 .address .contact-info {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 24px;
     color: #434455;
+    font-style: normal
 }
-.address .contact-info:hover, .adress .contact-info:active, .adress .contact-info:focus {
+.address .contact-info:hover, .address .contact-info:active, .address .contact-info:focus {
     color: #404bbf;
 }
