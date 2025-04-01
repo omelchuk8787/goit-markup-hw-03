@@ -86,7 +86,7 @@ address {
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
-        
+
 }
 .strategy {
         font-size: 16px;
@@ -107,7 +107,17 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .listr {
     background-color: #FFFFFF;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.foter-lostud {
+    color: #f4f4fd;
+}
+.foor-strategy {
+    color: #F4F4FD;
 }
