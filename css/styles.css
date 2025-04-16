@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    background: #FFFFFF;
+    color: #434455;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    
+    font-weight: 700;
+    font-size: 18px;
+
+    /* line-height: 21px; */
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo:hover, .logo:active, .logo:focus {
+    color: #4d5ae5;
+}
+.lostud {
+    color: #2e2f42;
+}
+.lostud:hover, .lostud:active, .lostud:focus {
+    color: #4d5ae5;
+}
+.nav .link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #2e2f42;
+}
+ .nav .link:hover, .link:active, .nav .link:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
+}
+.address .contact-info {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+    
+}
+.address .contact-info:hover, .address .contact-info:active, .address .contact-info:focus {
+    color: #404bbf;
+}
+.for-your-business {
+    background-color: #2e2f42;
+}
+.h-one-business {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+}
+.button:hover, .button:active, .button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.hstr {
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-transform: capitalize;
+
+}
+.strategy {
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.our-team {
+    background-color: #F4F4FD;
+}
+.invi {
+        font-size: 36px;
+    
+        /* line-height: 40px; */
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
+.listr {
+    background-color: #FFFFFF;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.foter-lostud {
+    color: #f4f4fd;
+}
+.foor-strategy {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
