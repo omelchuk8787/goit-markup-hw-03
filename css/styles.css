@@ -12,10 +12,10 @@ body {
 
 .heder {
 display: flex;
-   
+border-bottom: 1px solid #e7e9fc;
         width: 1440px;
         height: 72px;
-        border-bottom: 1px solid #e7e9fc;
+        
 }
 
 .img {
@@ -57,12 +57,9 @@ a {
 .logo {
 display: flex;
     align-items: center;
-    
     flex-direction: row;
-    gap: 40px;
     width: 115px;
         height: 24px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         margin-right: 76px;
         padding: 24px 0;
 }
