@@ -4,19 +4,58 @@ body {
     background: #FFFFFF;
     color: #434455;
 }
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.heder {
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding: 0 15px 0 15px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+
+}
+
 ul,
 ol {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 a {
     text-decoration: none;
 }
+
+
 .logo {
+    display: block;
     font-family: "Raleway", sans-serif;
-    
+    margin-right: 76px;
     font-weight: 700;
     font-size: 18px;
+    padding: 24px 0;
 
     /* line-height: 21px; */
     line-height: 1.17;
@@ -24,16 +63,27 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo:hover, .logo:active, .logo:focus {
+
+.logo:hover,
+.logo:active,
+.logo:focus {
     color: #4d5ae5;
 }
+
 .lostud {
     color: #2e2f42;
 }
-.lostud:hover, .lostud:active, .lostud:focus {
+
+.lostud:hover,
+.lostud:active,
+.lostud:focus {
     color: #4d5ae5;
 }
+
 .nav .link {
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -41,26 +91,40 @@ a {
     line-height: 24px;
     color: #2e2f42;
 }
- .nav .link:hover, .link:active, .nav .link:focus {
+
+.nav .link:hover,
+.link:active,
+.nav .link:focus {
     color: #404bbf;
 }
+
 address {
+    display: flex;
     font-style: normal;
 }
+
 .address .contact-info {
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
-    
+
 }
-.address .contact-info:hover, .address .contact-info:active, .address .contact-info:focus {
+
+.address .contact-info:hover,
+.address .contact-info:active,
+.address .contact-info:focus {
     color: #404bbf;
 }
+
 .for-your-business {
     background-color: #2e2f42;
 }
+
 .h-one-business {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -70,62 +134,74 @@ address {
     color: #FFFFFF;
     text-align: center;
 }
+
 .button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
-.button:hover, .button:active, .button:focus {
+
+.button:hover,
+.button:active,
+.button:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
+
 .hstr {
     font-weight: 500;
-        font-size: 20px;
-    
-        /* line-height: 24px; */
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-transform: capitalize;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
 
 }
+
 .strategy {
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .our-team {
     background-color: #F4F4FD;
 }
+
 .invi {
-        font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
+    font-size: 36px;
+
+    /* line-height: 40px; */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
+
 .listr {
     background-color: #FFFFFF;
 }
+
 .footer {
     background-color: #2e2f42;
 }
+
 .foter-lostud {
     color: #f4f4fd;
 }
+
 .foor-strategy {
     color: #F4F4FD;
     line-height: 1.5;
