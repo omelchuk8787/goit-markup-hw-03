@@ -11,10 +11,15 @@ body {
 }
 
 .heder {
-    width: 1440px;
-    height: 72px;
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
     border-bottom: 1px solid #e7e9fc;
-
+        width: 1440px;
+        height: 72px;
+        background: #fff;
 }
 
 .img {
@@ -23,7 +28,7 @@ body {
     object-fit: cover;
 }
 
-.div container {
+.burger conteiner {
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -32,8 +37,13 @@ body {
 }
 
 .nav-header {
-    display: flex;
-    align-items: center;
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+        height: 24px;
 
 }
 
@@ -50,18 +60,14 @@ a {
 
 
 .logo {
-    display: block;
-    font-family: "Raleway", sans-serif;
-    margin-right: 76px;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 24px 0;
-
-    /* line-height: 21px; */
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    width: 115px;
+        height: 24px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .logo:hover,
@@ -81,15 +87,20 @@ a {
 }
 
 .nav .link {
-    display: flex;
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 40px;
-    margin-right: 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 24px;
-    color: #2e2f42;
+    width: 261px;
+        height: 24px;
+        font-weight: 500;
+            font-size: 16px;
+        
+            /* line-height: 24px; */
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
 }
 
 .nav .link:hover,
@@ -99,19 +110,24 @@ a {
 }
 
 address {
-    display: flex;
-    font-style: normal;
+font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .address .contact-info {
-    display: flex;
-    gap: 40px;
-    margin-right: 0;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #434455;
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+   
 
 }
 
@@ -122,29 +138,35 @@ address {
 }
 
 .for-your-business {
-    background-color: #2e2f42;
+width: 1440px;
+    height: 600px;
+    background: #2e2f42;
 }
 
 .h-one-business {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+
+    /* line-height: 60px; */
+    line-height: 1.07143;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
     text-align: center;
+    color: #fff;
+
 }
 
 .button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: #4d5ae5;
 }
 
 .button:hover,
