@@ -12,10 +12,7 @@ body {
 
 .heder {
 display: flex;
-border-bottom: 1px solid #e7e9fc;
-        width: 1440px;
-        height: 72px;
-        
+border-bottom: 1px solid #e7e9fc;  
 }
 
 .img {
@@ -23,9 +20,14 @@ border-bottom: 1px solid #e7e9fc;
     width: 100%;
     height: 100%;
 }
+.navc {
+    display: flex;
+}
 .nav {
     display: flex;
     align-items: center;
+    gap: 40;;
+   
 
 }   
 .contner {
