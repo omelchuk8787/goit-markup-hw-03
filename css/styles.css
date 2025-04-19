@@ -4,6 +4,30 @@ body {
     background: #FFFFFF;
     color: #434455;
 }
+.img-team {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.header-div {
+display: flex;;
+}
+.container {
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.nav-header {
+    display: flex;
+align-items: center;
+
+}
+
 ul,
 ol {
     list-style: none;
@@ -13,6 +37,7 @@ a {
     text-decoration: none;
 }
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     
     font-weight: 700;
@@ -33,7 +58,13 @@ a {
 .lostud:hover, .lostud:active, .lostud:focus {
     color: #4d5ae5;
 }
+.nav {
+    display: flex;
+    gap: 40px;
+
+}
 .nav .link {
+    padding: 24px 0;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -45,6 +76,8 @@ a {
     color: #404bbf;
 }
 address {
+    display: flex;
+    gap: 40px;
     font-style: normal;
 }
 .address .contact-info {
