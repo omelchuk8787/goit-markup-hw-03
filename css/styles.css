@@ -75,10 +75,14 @@ a {
  .nav .link:hover, .link:active, .nav .link:focus {
     color: #404bbf;
 }
-address {
+.address {
     display: flex;
     gap: 40px;
     font-style: normal;
+}
+.address-ullist {
+    display: flex;
+    gap: 40px;
 }
 .address .contact-info {
     font-weight: 500;
@@ -92,9 +96,14 @@ address {
     color: #404bbf;
 }
 .for-your-business {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
-.h-one-business {
+.conteiner
+{
+
+}.h-one-business {
+    max-width: 496px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -104,7 +113,14 @@ address {
     text-align: center;
 }
 .button {
-    background-color: #4D5AE5;
+    display: block;
+    margin: center;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
