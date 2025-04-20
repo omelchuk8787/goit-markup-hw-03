@@ -1,9 +1,16 @@
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
     background: #FFFFFF;
     color: #434455;
 }
+
+
+
 .img-team {
     display: block;
 }
@@ -15,6 +22,13 @@ body {
 
 .header-div {
 display: flex;
+}
+.divbus {
+    display: block;
+    align-items: center;
+    width: 1158px;
+    height: 600px;
+ 
 }
 .container {
    
@@ -33,7 +47,15 @@ ul,
 ol {
     list-style: none;
 }
-
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
 a {
     text-decoration: none;
 }
@@ -102,6 +124,7 @@ a {
 }
 
 .h-one-business {
+  
     max-width: 496px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -113,7 +136,6 @@ a {
 }
 .button {
     display: block;
-    margin: center;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -191,12 +213,12 @@ a {
         text-align: center;
 }
 .our-team {
-    padding-top: 120px;
     padding: 120px 0;
     background-color: #F4F4FD;
 }
 .listr-srategy {
 width: calc((100% - 72px) / 4);
+font-size: 16px;
 }
 .name-strategy {
     padding: 32px 16px;
@@ -262,6 +284,9 @@ margin-bottom: 72px;
 width: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
+    align-items: center;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    margin-right: 0;
 }
 .listr {
 width: calc((100% - 72px) / 4);
@@ -272,19 +297,29 @@ width: calc((100% - 72px) / 4);
     background-color: #2e2f42;
 }
 .foter-lostud {
+    display: inline-block;
     color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+       
 }
-.foor-strategy {
+.foor {
     max-width: 264px;
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: left;
 }
 .divsec {
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-        border: 1px solid #e7e9fc;
+align-items: center;
 }
 .name-team {
     padding: 32px 0;
@@ -296,9 +331,12 @@ border-top: none;
 }
 .list-our-portfolio {
     display: flex;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: 0;
 
 }
 .listr-our {
@@ -313,6 +351,11 @@ border-top: none;
     border-top: none;
     margin-bottom: 8px;
 
+}
+.container-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16;
 }
 .logo-footer {
     display: inline-block;
