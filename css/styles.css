@@ -14,9 +14,10 @@ body {
 }
 
 .header-div {
-display: flex;;
+display: flex;
 }
 .container {
+   
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
@@ -122,11 +123,21 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1,5;
     
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+            
 }
 .button:hover, .button:active, .button:focus {
     background-color: #404BBF;
@@ -138,7 +149,26 @@ a {
     padding-bottom: 120px;
 
 }
+.htree {
+    margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-transform: capitalize;
+        text-align: center;
+
+}
+.htrysecfo {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+}
 .hstr {
+
     margin-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
@@ -149,7 +179,6 @@ a {
         color: #2e2f42;
         text-transform: capitalize;
         text-align: center;
-        margin-bottom: 8px;
 
 }
 .strategy {
@@ -167,7 +196,7 @@ a {
     background-color: #F4F4FD;
 }
 .listr-srategy {
-width: calc((100% - 48px) / 3);
+width: calc((100% - 72px) / 4);
 }
 .name-strategy {
     padding: 32px 16px;
@@ -187,6 +216,17 @@ width: calc((100% - 48px) / 3);
     gap: 24px;
 
 }
+.two {
+margin-bottom: 72px;
+        font-size: 36px;
+    
+        /* line-height: 40px; */
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
 .invi {
     margin-bottom: 8px;
 
@@ -199,20 +239,29 @@ width: calc((100% - 48px) / 3);
         color: #2e2f42;
         text-transform: capitalize;
 }
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
 .our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 
+}
+.lisectry {
+width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 .listr {
 width: calc((100% - 72px) / 4);
@@ -230,6 +279,12 @@ width: calc((100% - 72px) / 4);
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.divsec {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+        border: 1px solid #e7e9fc;
 }
 .name-team {
     padding: 32px 0;
@@ -262,6 +317,17 @@ width: calc((100% - 72px) / 4);
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
+        font-family: "Raleway", sans-serif;
+    
+        font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 
 }
 .logo-footer:hover,
