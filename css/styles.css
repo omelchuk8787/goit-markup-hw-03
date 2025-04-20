@@ -135,6 +135,7 @@ a {
 .invisiblesection {
     
     padding: 120px 0;
+    padding-bottom: 120px;
 
 }
 .hstr {
@@ -166,10 +167,8 @@ a {
     background-color: #F4F4FD;
 }
 .listr-srategy {
-    width: calc((100% - 48px) / 3);
-
-}   
-
+width: calc((100% - 48px) / 3);
+}
 .name-strategy {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -200,8 +199,15 @@ a {
         color: #2e2f42;
         text-transform: capitalize;
 }
-.inviclose {
-visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .our-portfolio {
     padding-top: 120px;
@@ -209,7 +215,7 @@ visibility: hidden;
 
 }
 .listr {
-flex-basis: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 }
 .footer {
@@ -226,7 +232,7 @@ flex-basis: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
 }
 .name-team {
-    padding: 32px 16px;
+    padding: 32px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 
