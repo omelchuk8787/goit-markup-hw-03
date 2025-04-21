@@ -5,7 +5,29 @@ body {
     background: #FFFFFF;
     color: #434455;
 }
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
 
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
 ul,
 ol {
     padding: 0;
@@ -232,9 +254,9 @@ display: flex;
 .htreestrategy {
     margin-bottom: 8px;
 }
-.strategy-zagolovok {
+/* .strategy-zagolovok {
 
-}
+} */
 .name-strategy {
     padding: 0;
 }
@@ -314,6 +336,7 @@ row-gap: 48px;
 }
 .three-portfolio {
     margin-bottom: 8px;
+    text-align: center;
 }
 .portfolio-zagolovok {
     margin-bottom: 8px;
