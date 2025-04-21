@@ -220,6 +220,7 @@ address {
     gap: 24px;
 }
 .listr-srategy {
+    padding: 0;
     width: calc((100% - 72px) / 4);
 }
 .htreestrategy {
