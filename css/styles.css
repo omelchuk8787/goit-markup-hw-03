@@ -10,7 +10,11 @@ ul,
 ol {
     list-style: none;
 }
-
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
 a {
     text-decoration: none;
 }
@@ -109,7 +113,7 @@ display: flex;
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
 }
 .address-ullist {
@@ -220,7 +224,6 @@ address {
     gap: 24px;
 }
 .listr-srategy {
-    padding: 0;
     width: calc((100% - 72px) / 4);
 }
 .htreestrategy {
@@ -228,6 +231,9 @@ address {
 }
 .strategy-zagolovok {
 
+}
+.name-strategy {
+    padding: 0;
 }
 
 /* < !-- #endregion for you besness --> */
