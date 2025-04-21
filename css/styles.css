@@ -44,6 +44,25 @@ a {
 .logo:focus {
     color: #4d5ae5;
 }
+.hstr {
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
+
+}
+.zagolook {
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /* <!-- #Header styles --> */
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -180,26 +199,36 @@ address {
     background-color: #404BBF;
 }
 /* section class="section-strategy section" */
-.hstr {
-    font-weight: 500;
-    font-size: 20px;
-
-    /* line-height: 24px; */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
+.section-strategy {
+    padding: 120px 0;
 
 }
-
-.strategy {
-    font-size: 16px;
-
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+.ullist-strategy {
+    display: flex;
+    gap: 24px;
+}
+.listr-srategy {
+    width: calc((100% - 72px) / 4);
+}
+.htreestrategy {
+    margin-bottom: 8px;
+}
+.strategy-zagolovok {
+    margin-bottom: 8px;
+}
+
 /* < !-- #endregion for you besness --> */
 /* < !-- #region sentens structure --> */
 .our-team {
