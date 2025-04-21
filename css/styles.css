@@ -11,13 +11,13 @@ ol {
     padding: 0;
     list-style: none;
 }
-li {
+li, p{
     padding: 0;
     display: list-item;
     text-align: -webkit-match-parent;
     list-style: none;
 }
-a {
+a, p{
     text-decoration: none;
 }
 .section {
@@ -314,9 +314,9 @@ row-gap: 48px;
 .three-portfolio {
     margin-bottom: 8px;
 }
+.zagolook
 .portfolio-zagolovok {
     margin-bottom: 8px;
-    
 }
 /* < !-- #endregion Our Portfolio --> */
 /* < !-- #region Footer --> */
