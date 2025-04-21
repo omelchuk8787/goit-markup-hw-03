@@ -314,9 +314,9 @@ row-gap: 48px;
 .three-portfolio {
     margin-bottom: 8px;
 }
-.zagolook
 .portfolio-zagolovok {
     margin-bottom: 8px;
+    text-align: center;
 }
 /* < !-- #endregion Our Portfolio --> */
 /* < !-- #region Footer --> */
