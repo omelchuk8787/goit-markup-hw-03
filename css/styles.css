@@ -20,12 +20,11 @@ a {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
-/* <!-- #Header styles --> */
-.header {
-    background-color: #FFFFFF;
-    padding: 20px 0;
+.img {
+    display: block;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -45,8 +44,23 @@ a {
 .logo:focus {
     color: #4d5ae5;
 }
+/* <!-- #Header styles --> */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-div {
+    display: flex;
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+.web-logo {
+    margin-right: 76px;
+}
 
-.lostud {
+
+.logo-studio {
     color: #2e2f42;
 }
 
@@ -56,7 +70,9 @@ a {
     color: #4d5ae5;
 }
 
-.nav .link {
+.ul-nav {
+display: flex;
+    gap: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -64,29 +80,44 @@ a {
     line-height: 24px;
     color: #2e2f42;
 }
+.link {
+    padding: 24px 0;
+}
 
-.nav .link:hover,
+.ul-nav .link:hover,
 .link:active,
-.nav .link:focus {
+.ul-nav .link:focus {
     color: #404bbf;
 }
 
 address {
     font-style: normal;
 }
-
+.address-ullist {
+    display: flex;
+    gap: 40px;
+}
 .address .contact-info {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
 
 }
+.address .contact-tel {
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
-.address .contact-info:hover,
-.address .contact-info:active,
-.address .contact-info:focus {
+.address .contact-info .contact-tel:hover,
+.address .contact-info .contact-tel:active,
+.address .contact-info .contact-tel:focus {
     color: #404bbf;
 }
 /* < !-- #region for you besness --> */
