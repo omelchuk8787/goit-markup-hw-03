@@ -350,11 +350,38 @@ row-gap: 48px;
 
 .foter-lostud {
     color: #f4f4fd;
+    padding: 100px 0;
 }
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.foter-lostud {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+        font-size: 18px;
+    
+        /* line-height: 21px; */
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+.footer-zagolovok {
+    max-width: 264px;
+}
+/* .tree-footer {
 
-.foor-strategy {
+} */
+
+/* .container-footer {
+
+} */
+ 
+/* .foor-strategy {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
+} */
 /* < !-- #endregion Footer --> */
