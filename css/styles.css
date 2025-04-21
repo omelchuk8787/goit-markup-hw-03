@@ -266,7 +266,7 @@ display: flex;
 }
 .our-team-zagolovok {
     text-align: center;
-    
+
 }
 /* < !-- #endregion sentens structure -->
 < !-- #region Our Portfolio --> */
@@ -283,6 +283,31 @@ display: flex;
 
 .listr {
     background-color: #FFFFFF;
+}
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.two-team {
+    margin-bottom: 72px;
+}
+.ullist-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.lisectry {
+    width: calc((100% - 48px) / 3);
+
+}
+.divsec {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.htrysecfo {
+    margin-bottom: 8px;
 }
 /* < !-- #endregion Our Portfolio --> */
 /* < !-- #region Footer --> */
