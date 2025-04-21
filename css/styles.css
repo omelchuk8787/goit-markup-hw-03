@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 .section {
-    padding: 100px 0;
+    padding: 188px 0;
 }
 .container {
     max-width: 1158px;
@@ -64,9 +64,9 @@ a {
     color: #2e2f42;
 }
 
-.lostud:hover,
-.lostud:active,
-.lostud:focus {
+.logo-studio:hover,
+.logo-studio:active,
+.logo-studio:focus {
     color: #4d5ae5;
 }
 
@@ -97,7 +97,7 @@ address {
     display: flex;
     gap: 40px;
 }
-.address .contact-info {
+.contact-info {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -105,7 +105,7 @@ address {
     color: #434455;
 
 }
-.address .contact-tel {
+.contact-tel {
     font-weight: 400;
         font-size: 16px;
     
@@ -115,27 +115,54 @@ address {
         color: #434455;
 }
 
-.address .contact-info .contact-tel:hover,
-.address .contact-info .contact-tel:active,
-.address .contact-info .contact-tel:focus {
+.contact-info :hover,
+.contact-info :active,
+.contact-info :focus {
+    color: #404bbf;
+}
+
+.contact-tel:hover,
+.contact-tel:active,
+.contact-tel:focus {
     color: #404bbf;
 }
 /* < !-- #region for you besness --> */
+
 .for-your-business {
+    width: 100%;
+    height: 600px;
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
 .h-one-business {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding-top: center;
+    padding-left: center;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 56px;
+    /* line-height: 60px; */
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
 }
 
-.button {
+.business-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -147,13 +174,12 @@ address {
     color: #ffffff;
 }
 
-.button:hover,
-.button:active,
-.button:focus {
+.business-button:hover,
+.business-button:active,
+.business-button:focus {
     background-color: #404BBF;
-    cursor: pointer;
 }
-
+/* section class="section-strategy section" */
 .hstr {
     font-weight: 500;
     font-size: 20px;
