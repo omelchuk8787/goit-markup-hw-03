@@ -8,9 +8,11 @@ body {
 
 ul,
 ol {
+    padding: 0;
     list-style: none;
 }
 li {
+    padding: 0;
     display: list-item;
     text-align: -webkit-match-parent;
     list-style: none;
