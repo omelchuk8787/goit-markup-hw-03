@@ -12,6 +12,7 @@ ol {
     list-style: none;
 }
 li, p{
+    margin: 0;
     padding: 0;
     display: list-item;
     text-align: -webkit-match-parent;
